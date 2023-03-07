@@ -13,7 +13,10 @@
 <body>
     <header>
         <nav class="nav__bar">
-            <h1 class="nav__logo"><strong>NB</strong>ank</h1>
+            <div class="logo">
+                <p>NB</p>
+                <h1>ank</h1>
+            </div>
             <ul class="nav__menu">
                 <li class="nav__item"><a href="inicio" class="nav__link">Início </a></li>
                 <li class="nav__item"><a href="sobre" class="nav__link">Sobre</a></li>
@@ -28,7 +31,7 @@
     </header>
 
     <main>
-        <section id="inicio">
+        <section id="inicio" class="container__inicio">
             <div class="container__inicio">
                 <div class="descricao">
                     <p>Autonomia e tranquilidade no controle das suas despesas pessoais e empresariais</p>
@@ -36,7 +39,7 @@
             </div>
         </section>
                 
-        <section id="servicos">
+        <section id="servicos"  class="container__servico">
             <h2>Serviços</h2>
             <div class="container__servicos">
                 <div class="contas">
@@ -53,12 +56,12 @@
             </div>
         </section>
 
-        <div class="banner">
+        <div class="banner" class="container__banner">
             <p>Criar a sua conta com a gente é fácil, rápido e sem burocracias. No seu computador ou celular a um clik de distância!!</p>
             <button>Quero abrir a minha conta agora!</button>
         </div>
         
-        <section id="vantagens">
+        <section id="vantagens" class="container__vantagens">
             <h3>Vantagensde ter nossa conta:</h3>
             <div class="container__vantagens">
                 <div class="conta">
@@ -88,7 +91,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="container__footer">
         <div>
             <p class="footer__titulo">O NBank</p>
             <p class="info">Sobre</p>
