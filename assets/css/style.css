@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -65,11 +66,20 @@ h1 {
 
 .container__inicio {
   display: flex;
-  align-items: center;
-  justify-content: center;
   background: url("../img/img01.jpg");
   background-repeat: no-repeat;
   filter: grayscale(50%);
   width: 100%;
   height: 100vh;
+}
+
+.descricao {
+  margin-left: 100px;
+  margin-top: 250px;
+  width: 500px;
+}
+.descricao p {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
 }/*# sourceMappingURL=style.css.map */
