@@ -216,4 +216,23 @@ footer .container__footer {
   gap: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+footer div p {
+  margin: 1em 0;
+}
+footer div .footer__titulo {
+  text-shadow: #292133 1px 0 10px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 22px;
+}
+footer div .info {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+footer div i {
+  font-size: 20px;
+  margin-left: 15px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
