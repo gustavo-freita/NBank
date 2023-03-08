@@ -49,8 +49,7 @@ h1 {
   justify-content: center;
   gap: 20px;
 }
-
-.nav__link {
+.nav__menu .nav__link {
   font-size: 25px;
   color: #31293C;
   font-weight: 900;
@@ -62,6 +61,22 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+.botoes .nav__login {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+.botoes .nav__open {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .container__inicio {
